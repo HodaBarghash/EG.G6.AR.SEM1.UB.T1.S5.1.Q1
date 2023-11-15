@@ -2,7 +2,7 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "6XdLUD4zFGr":
+      case "5nngpcnPNgh":
         Script1();
         break;
   }
@@ -20,7 +20,7 @@ fetch(url,{
 	cache:'no-cache',
 	headers: {'Content-Type': 'application/json'},
 	redirect:'follow',
-	body: JSON.stringify({v9q2attempts:player.GetVar("v9q2attempts"),v9q2answeredcorrect:player.GetVar("v9q2answeredcorrect")})
+	body: JSON.stringify({v13q1attempts:player.GetVar("v13q1attempts"),v13q1answeredcorrect:player.GetVar("v13q1answeredcorrect")})
 	}
 	)
 }
